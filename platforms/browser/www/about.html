@@ -1,0 +1,37 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+<div class="pages">
+  <div data-page="about" class="page">
+    <!-- Navbar top -->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link">Home Left</a>
+        </div>
+        <div class="center">Home</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <br>
+      <br>
+      <div id="signature-display"></div>
+      <div id="order-details-display"></div>
+      <!-- Virtual List -->
+      <div class="list-block virtual-list"></div>
+      <div id="delivery-list">
+      </div>
+      <!-- Services Popup -->
+      <div class="popup popup-services"></div>
+      <div class="content-block-title">Sign signature bellow</div>
+      <div style="background-color:gray;color:white;padding:10px;">
+        <div class="wrapper">
+          <canvas id="signature-pad" class="signature-pad" width=250 height=100></canvas>
+        </div>
+      </div>
+      <p class="buttons-row">
+        <a href="#" class="button button-fill button-raised" id="back">CANCEL</a>
+        <a href="#" class="button button-fill button-raised" id="save-jpeg">SUBMIT</a>
+        <a href="#" class="button button-fill button-raised" id="clear">CLEAR</a>
+      </p>
+    </div>
+  </div>
+</div>

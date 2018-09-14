@@ -1,0 +1,232 @@
+
+<div class="pages">
+    <div data-page="customer-edit-page" class="page">
+        <div class="page-content">
+            <br>
+            <br>
+                <form id="customer-edit-form" class="list-block">
+                    <ul>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-input">
+                                        <a href="#" id="profile-image"><input type="image" src="assets/img/profile.png" style="width:100px;height:100px;" id="my-profile"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <input type="hidden" name="profile" id="profile-value">
+                        <!-- Text inputs -->
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">stopwatch_fill</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Title</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="Title" id="title" name="title">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">person</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Suffix</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="Suffix" id="suffix" name="suffix">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">person</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">First Name</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="First name" id="first_name" name="fname" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">person</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Middle Name</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="Middle name" id="middle_name" name="mname" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">person</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Last Name</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="Last name" id="last_name" name="lname" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Select -->
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">persons</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Gender</div>
+                                    <div class="item-input" name="gender">
+                                        <select name="gender">
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Date -->
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">calendar</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Birth date</div>
+                                    <div class="item-input">
+                                        <input type="date" placeholder="Birth day" id="birth-date" name="bday">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">phone_round</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Contact</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="contact" id="contact" name="contact">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Switch (Checkbox) -->
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">check</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Regular</div>
+                                    <div class="item-input">
+                                        <label class="label-checkbox item-content">
+                                            <!-- Checked by default -->
+
+                                            <input type="checkbox" name="isRegular">
+                                            <div class="item-media">
+                                                <i class="icon icon-form-checkbox"></i>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media"><i class="icon f7-icons">phone_round</i></div>
+                                <div class="item-inner">
+                                    <div class="item-title label">Address</div>
+                                    <div class="item-input">
+                                        <input type="text" placeholder="contact" id="address" name="address">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Smart select item -->
+                        <!-- Smart select item -->
+                        <li>
+                            <!-- Additional "smart-select" class -->
+                            <!--<a href="#" class="item-link smart-select" data-searchbar="true" data-searchbar-placeholder="Search fruits">-->
+                            <a href="#" class="item-link smart-select" id="id-smart-select-province"  data-open-in="picker" data-back-on-select="true" data-searchbar="true" data-searchbar-placeholder="Search Provinces">
+                                <!-- select -->
+                                <select name="provinceID" id="form_entry_province">
+                                    <!--<option value="apple">Apple</option>-->
+                                    <!--<option value="pineapple">Pineapple</option>-->
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-media"><i class="icon f7-icons">compose</i></div>
+                                    <div class="item-inner">
+                                        <div class="item-title label">Province</div>
+                                        <div class="item-input">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <!-- Additional "smart-select" class -->
+                            <a href="#" class="item-link smart-select" id="id-smart-select-city" data-open-in="picker" data-back-on-select="true" data-searchbar="true" data-searchbar-placeholder="Search Cities">
+                                <!--<a href="#" class="item-link " id="id-smart-select-city" >-->
+                                <!-- select -->
+                                <select name="cityID" id="form_entry_city">
+                                    <!--<option value="cebu">cebu</option>-->
+
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-media"><i class="icon f7-icons">compose</i></div>
+                                    <div class="item-inner">
+                                        <div class="item-title label">City</div>
+                                        <div class="item-input">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- start barangay select -->
+                        <li>
+                            <!-- Additional "smart-select" class -->
+                            <a href="#" class="item-link smart-select" id="id-smart-select-barangay" data-open-in="picker" data-back-on-select="true" data-searchbar="true" data-searchbar-placeholder="Search Barangay">
+                                <!--<a href="#" class="item-link " id="id-smart-select-city" >-->
+                                <!-- select -->
+                                <select name="barangayID" id="form_entry_barangay">
+                                    <!--<option value="cebu">cebu</option>-->
+
+                                </select>
+                                <div class="item-content">
+                                    <div class="item-media"><i class="icon f7-icons">compose</i></div>
+                                    <div class="item-inner">
+                                        <div class="item-title label">Barangay</div>
+                                        <div class="item-input">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- end barangay select -->
+                        <!-- Another smart selects or list view elements -->
+
+
+                    </ul>
+                </form>
+
+            <div class="content-block">
+                <a href="#" class="button button-fill button-raised" id="id-edit-customer">SUBMIT</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+

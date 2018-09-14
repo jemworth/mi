@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_screen.png.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_screen.png.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_camera_provider_paths.xml.flat",
+        "source": "C:\\Users\\IAN\\cordova\\iwash\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
+    }
+]

@@ -1,0 +1,37 @@
+<div class = "navbar">
+    <div class = "navbar-inner">
+        <div class = "left sliding">
+            <a href = "#" class = "back link"> <i class = "icon icon-back"></i><span>Back</span></a>
+        </div>
+
+        <div class = "center sliding">Likes</div>
+        <div class = "right">
+            <a href = "#" class = "link icon-only open-panel"> <i class = "icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class = "pages">
+    <div data-page = "likes" class = "page">
+        <div class = "page-content">
+            <div class = "content-block-title">My Likes</div>
+            <div class = "list-block media-list">
+
+                //iterate through likes
+                <ul>
+                    {{#each likes}}
+                    <li class = "item-content">
+                        <div class = "item-inner">
+                            <div class = "item-title-row">
+                                //displays the title and description by using the 'my-app.js' file
+                                <div class = "item-title">{{title}}</div>
+                            </div>
+                            <div class = "item-subtitle">{{description}}</div>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

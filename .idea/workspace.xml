@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="949a967c-9d2a-43ae-914d-dc39b6c88e02" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/assets/js/main.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="likes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/likes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="76" column="72" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-history.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/about-history.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="78" column="35" selection-end-line="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer-detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/customer-detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/assets/css/my-app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="e#1243#7651#0" />
+                <element signature="e#13033#20769#0" />
+                <element signature="e#20805#23637#0" />
+                <element signature="e#23736#24082#0" />
+                <element signature="e#24130#24281#0" />
+                <element signature="e#24340#30164#0" />
+                <element signature="n#!!block;n#update_order_details#0" />
+                <element signature="n#!!block;n#refreshData#0" />
+                <element signature="n#!!block;n#refreshDataHistory#0" />
+                <element signature="n#!!block;n#onBackKeyDown#0" />
+                <element signature="n#!!block;n#exitFromApp#0" />
+                <element signature="n#!!block;n#myFunction#0" />
+                <element signature="n#!!block;n#getOrderDate#0" />
+                <element signature="n#!!block;n#resetData#0" />
+                <element signature="n#!!block;n#getDefaultHistoryList#0" />
+                <element signature="n#!!block;n#customerPullToRefresh#0" />
+                <element signature="n#!!block;n#getCustomer#0" />
+                <element signature="n#!!block;n#getProvince#0" />
+                <element signature="n#!!block;n#getCities#0" />
+                <element signature="n#!!block;n#getBarangay#0" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer-edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/customer-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7565">
+              <caret line="445" column="69" selection-start-line="435" selection-start-column="13" selection-end-line="445" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>refreshDataH</find>
+      <find>signa</find>
+      <find>deli</find>
+      <find>reset</find>
+      <find>dashboard</find>
+      <find>navbar</find>
+      <find>list</find>
+      <find>id-hom</find>
+      <find>id-history-list</find>
+      <find>document</find>
+      <find>off</find>
+      <find>this is cu</find>
+      <find>id-logout</find>
+      <find>this is customer page</find>
+      <find>getCitei</find>
+      <find>getCities</find>
+      <find>getPro</find>
+      <find>login</find>
+      <find>getProvince</find>
+      <find>customer</find>
+      <find>regul</find>
+      <find>details</find>
+      <find>isRegular</find>
+      <find>addCustomer</find>
+      <find>access</find>
+      <find>create</find>
+      <find>device</find>
+      <find>profile-image</find>
+      <find>getCustomer</find>
+      <find>customer_details</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/pages/likes.html" />
+        <option value="$PROJECT_DIR$/www/login-screen-page.html" />
+        <option value="$PROJECT_DIR$/www/assets/css/signature-pad.css" />
+        <option value="$PROJECT_DIR$/www/assets/css/my-app.css" />
+        <option value="$PROJECT_DIR$/www/about.html" />
+        <option value="$PROJECT_DIR$/www/pages/about-history.html" />
+        <option value="$PROJECT_DIR$/www/about-history.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/assets/css/toast.css" />
+        <option value="$PROJECT_DIR$/www/assets/js/toast.js" />
+        <option value="$PROJECT_DIR$/www/pages/customer-detail.html" />
+        <option value="$PROJECT_DIR$/www/customer-detail.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/customer-edit.html" />
+        <option value="$PROJECT_DIR$/www/assets/js/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/android-versions/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/big-integer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/bplist-parser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-common/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/cordova-registry-mapper/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/elementtree/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/plist/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/properties-parser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/unorm/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/cordova/node_modules/xmldom/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/big-integer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/bplist-parser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/compressible/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/compressible/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/compression/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cordova-common/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cordova-registry-mapper/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cordova-serve/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/elementtree/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/plist/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/raw-body/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/shelljs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/unorm/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/browser/cordova/node_modules/xmldom/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/package.json" />
+      <path value="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iwash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iwash" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/iwash" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IAN\cordova\iwash\www" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IAN\cordova\iwash\res\screen\android" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="949a967c-9d2a-43ae-914d-dc39b6c88e02" name="Default" comment="" />
+      <created>1534132117804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534132117804</updated>
+      <workItem from="1534132119150" duration="2846000" />
+      <workItem from="1534135691603" duration="23466000" />
+      <workItem from="1534209187213" duration="616000" />
+      <workItem from="1534213482419" duration="18309000" />
+      <workItem from="1534237448933" duration="5071000" />
+      <workItem from="1534294409596" duration="738000" />
+      <workItem from="1534296573170" duration="14517000" />
+      <workItem from="1534318949069" duration="1231000" />
+      <workItem from="1534324021915" duration="4751000" />
+      <workItem from="1534380719274" duration="779000" />
+      <workItem from="1534390920136" duration="4063000" />
+      <workItem from="1534398648931" duration="12999000" />
+      <workItem from="1534418834919" duration="758000" />
+      <workItem from="1534464497775" duration="285000" />
+      <workItem from="1534473757973" duration="12640000" />
+      <workItem from="1534493058754" duration="4645000" />
+      <workItem from="1534900401995" duration="601000" />
+      <workItem from="1534919824733" duration="15493000" />
+      <workItem from="1534995719666" duration="15431000" />
+      <workItem from="1535020757891" duration="3145000" />
+      <workItem from="1535078901200" duration="55000" />
+      <workItem from="1535081262121" duration="1371000" />
+      <workItem from="1535439989546" duration="1501000" />
+      <workItem from="1535450426727" duration="1398000" />
+      <workItem from="1535506784794" duration="21763000" />
+      <workItem from="1535594891793" duration="18242000" />
+      <workItem from="1535950965055" duration="6153000" />
+      <workItem from="1536118211936" duration="18671000" />
+      <workItem from="1536221397170" duration="5410000" />
+      <workItem from="1536289015191" duration="5099000" />
+      <workItem from="1536556367466" duration="13185000" />
+      <workItem from="1536634737619" duration="10344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="245576000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.3292517" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15755208" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15755208" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="28" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="38" selection-start-line="156" selection-start-column="38" selection-end-line="156" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login-screen-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/likes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="28" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="38" lean-forward="true" selection-start-line="156" selection-start-column="38" selection-end-line="156" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login-screen-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/likes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="28" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3757">
+          <caret line="221" column="3" lean-forward="true" selection-start-line="221" selection-start-column="3" selection-end-line="221" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login-screen-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/likes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="68" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="28" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login-screen-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/likes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="68" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="28" lean-forward="true" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/cordova-pad-signature/signature_pad-master/signature_pad-master/docs/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="114" column="3" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/signature-pad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login-screen-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/likes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon/android/icon-96-xhdpi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon/android/icon-72-hdpi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon/android/icon-48-mdpi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon/windows-phone/icon-48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/my-app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon/android/icon-36-ldpi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="72" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/css/toast.css" />
+    <entry file="file://$PROJECT_DIR$/www/assets/js/toast.js" />
+    <entry file="file://$PROJECT_DIR$/www/about-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="35" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/customer-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/customer-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7565">
+          <caret line="445" column="69" selection-start-line="435" selection-start-column="13" selection-end-line="445" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#1243#7651#0" />
+            <element signature="e#13033#20769#0" />
+            <element signature="e#20805#23637#0" />
+            <element signature="e#23736#24082#0" />
+            <element signature="e#24130#24281#0" />
+            <element signature="e#24340#30164#0" />
+            <element signature="n#!!block;n#update_order_details#0" />
+            <element signature="n#!!block;n#refreshData#0" />
+            <element signature="n#!!block;n#refreshDataHistory#0" />
+            <element signature="n#!!block;n#onBackKeyDown#0" />
+            <element signature="n#!!block;n#exitFromApp#0" />
+            <element signature="n#!!block;n#myFunction#0" />
+            <element signature="n#!!block;n#getOrderDate#0" />
+            <element signature="n#!!block;n#resetData#0" />
+            <element signature="n#!!block;n#getDefaultHistoryList#0" />
+            <element signature="n#!!block;n#customerPullToRefresh#0" />
+            <element signature="n#!!block;n#getCustomer#0" />
+            <element signature="n#!!block;n#getProvince#0" />
+            <element signature="n#!!block;n#getCities#0" />
+            <element signature="n#!!block;n#getBarangay#0" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
