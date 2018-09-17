@@ -169,17 +169,19 @@ $$(document).on('pageInit', function (e) {
 
                         listHTML += '<li>';
                         listHTML += '<a href="about.html?id='+ v.order_id +'" class="item-link item-content">';
+                        listHTML += '<div class="item-media"><span class="moname">Sep<span class="moday">23</span></span></div>';
                         listHTML += '<div class = "item-inner">';
                         listHTML += '<div class = "item-title-row">';
                         listHTML += '<div class = "item-title">'+v.suffix+" "+ v.fname +" "+v.mname+" "+v.lname+'</div>';
-                        listHTML += '<div class="item-after">'+v.date+'</div>';
+                        // listHTML += '<div class="item-after">'+v.date+'</div>';
                         listHTML += '</div>';
                         listHTML += '<div class="item-subtitle"> Branch : '+ v.branch_name +'</div>';
-                        listHTML += '<div class="item-text"> Service Type : '+ v.service_type+'</div>';
+                        listHTML += '<div class="item-text">'+ v.service_type+'</div>';
                         listHTML += '</div>';
                         listHTML += '</a>';
                         listHTML += '</li>';
 
+                        listHTML += '<li>';
                     });
 
                     listHTML += '</ul>';
@@ -1013,13 +1015,14 @@ function refreshData(date, page, status)
 
                 listHTML += '<li>';
                 listHTML += '<a href="about.html?id='+ v.order_id +'" class="item-link item-content">';
+                listHTML += '<div class="item-media"><span class="moname">Sep<span class="moday">23</span></span></div>';
                 listHTML += '<div class = "item-inner">';
                 listHTML += '<div class = "item-title-row">';
                 listHTML += '<div class = "item-title">'+v.suffix+" "+ v.fname +" "+v.mname+" "+v.lname+'</div>';
-                listHTML += '<div class="item-after">'+v.date+'</div>';
+                // listHTML += '<div class="item-after">'+v.date+'</div>';
                 listHTML += '</div>';
                 listHTML += '<div class="item-subtitle"> Branch : '+ v.branch_name +'</div>';
-                listHTML += '<div class="item-text"> Service Type : '+ v.service_type+'</div>';
+                listHTML += '<div class="item-text">'+ v.service_type+'</div>';
                 //listHTML += '<div class = "card-footer"><a href="about.html?id='+ v.order_id +'" class="link">View Details</a></div>';
                 listHTML += '</div>';
                 listHTML += '</a>';
@@ -1194,13 +1197,14 @@ function getOrderDate(page, date, status)
                     else if(status == 5) {
                         listHTML += '<a href="about-history.html?id='+ v.order_id +'" class="item-link item-content">';
                     }
+                    listHTML += '<div class="item-media"><span class="moname">Sep<span class="moday">23</span></span></div>';
                     listHTML += '<div class = "item-inner">';
                     listHTML += '<div class = "item-title-row">';
                     listHTML += '<div class = "item-title">'+v.suffix+" "+ v.fname +" "+v.mname+" "+v.lname+'</div>';
-                    listHTML += '<div class="item-after">'+v.date+'</div>';
+                    // listHTML += '<div class="item-after">'+v.date+'</div>';
                     listHTML += '</div>';
                     listHTML += '<div class="item-subtitle"> Branch : '+ v.branch_name +'</div>';
-                    listHTML += '<div class="item-text"> Service Type : '+ v.service_type +'</div>';
+                    listHTML += '<div class="item-text color-blue">'+ v.service_type +'</div>';
                     listHTML += '</div>';
                     listHTML += '</a>';
                     listHTML += '</li>';

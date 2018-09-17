@@ -149,27 +149,27 @@
               <div class="page-content pull-to-refresh-content">
                 <div class="pull-to-refresh-layer">
                   <div class="preloader"></div>
-                  <!-- This block will be displayed if nothing found -->
-                  <div class="content-block searchbar-not-found">
-                    <div class="content-block-inner">Nothing found</div>
-                  </div>
+                  <div class="pull-to-refresh-arrow"></div>
+                </div>
 
-                  <div class="list-block list-block-search searchbar-found cards-list media-list">
-                    <div class="content-block inset px-0 my-15">
-                      <div class="row">
-                        <div class="col-50">
-                          <label>Start Date</label>
-                          <input type="text" readonly id="calendar-from">
-                        </div>
-                        <div class="col-50">
-                          <label>End Date</label>
-                          <input type="text" readonly id="calendar-to">
-                        </div>
+                <div class="list-block list-block-search searchbar-found media-list list-custom-1">
+                  <div class="content-block inset datepicker px-0 my-15">
+                    <div class="row">
+                      <div class="col-40">
+                        <label>Start Date</label>
+                        <input type="text" readonly id="calendar-from" placeholder="Sep 23 2018">
+                      </div>
+                      <div class="col-40">
+                        <label>End Date</label>
+                        <input type="text" readonly id="calendar-to" placeholder="Sep 23 2018">
+                      </div>
+                      <div class="col-20">
                         <a href="#" class="button button-fill button-raised" id="id-reset"><i class="la la-close"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -184,12 +184,14 @@
           <div class="pages">
             <div data-page="history-list" class="page no-navbar">
               <!-- Search Bar -->
-              <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                <div class="searchbar-input">
-                  <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
-                </div>
-                <a href="#" class="searchbar-cancel">Cancel</a>
-              </form>
+              <div class="content-block inset px-0 mt-20">
+                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                  <div class="searchbar-input">
+                    <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+                  </div>
+                  <a href="#" class="searchbar-cancel">Cancel</a>
+                </form>
+              </div>
               <!-- Search Bar overlay -->
               <div class="searchbar-overlay"></div>
               <div class="page-content pull-to-refresh-content">
@@ -230,12 +232,14 @@
             <div data-page = "customer-page" class="page no-navbar">
               <!-- start of page content -->
               <!-- Search Bar -->
-              <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                <div class="searchbar-input">
-                  <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
-                </div>
-                <a href="#" class="searchbar-cancel">Cancel</a>
-              </form>
+              <div class="content-block inset px-0 mt-20">
+                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                  <div class="searchbar-input">
+                    <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+                  </div>
+                  <a href="#" class="searchbar-cancel">Cancel</a>
+                </form>
+              </div>
               <!-- Search Bar overlay -->
               <div class="searchbar-overlay"></div>
               <div class="page-content pull-to-refresh-content" data-ptr-distance="55">
