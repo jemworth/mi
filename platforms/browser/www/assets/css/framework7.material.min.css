@@ -1337,7 +1337,7 @@ html:not(.watch-active-state) .toolbar a.link:active:before {
 }
 
 .subnavbar {
-    height: 48px;
+    height: 85px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -1598,7 +1598,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active {
     appearance: none;
     border-radius: 0;
     font-family: inherit;
-    color: #fff;
+    color: #212121;
     font-size: 14px;
     font-weight: 400;
     background-color: transparent;
@@ -1990,7 +1990,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active {
     width: 100%;
     background: #fff;
     box-sizing: border-box;
-    padding: 0 16px;
+    padding: 0 10px;
     overflow: hidden;
     position: relative;
     display: -webkit-box;
@@ -2125,7 +2125,7 @@ html:not(.watch-active-state) .searchbar a:active:before {
 }
 
 .searchbar-overlay {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -2133,7 +2133,7 @@ html:not(.watch-active-state) .searchbar a:active:before {
     z-index: 100;
     opacity: 0;
     pointer-events: none;
-    background: rgba(0, 0, 0, .25);
+    background: rgba(239, 245, 247, 0.5);
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2509,13 +2509,14 @@ html:not(.watch-active-state) .chip-delete:active {
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1;
     margin: 16px 16px 16px;
     padding-top: 16px;
     line-height: 16px;
     font-weight: 500;
-    color: rgba(0, 0, 0, .54)
+    color: #212121;
+    text-transform: uppercase;
 }
 
 .content-block-title+.card,
@@ -4133,11 +4134,11 @@ label.label-radio.active-state .item-inner:after {
     position: absolute;
     right: 16px;
     bottom: 16px;
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     z-index: 1500;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+    box-shadow: 0 5px 15px rgba(0, 45, 72, 0.4);
     background-color: #099be6;
     color: #fff;
     overflow: hidden;
@@ -9220,7 +9221,7 @@ a.link {
     border-radius: 50%;
     pointer-events: none;
     z-index: -1;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(6, 141, 212, 0.1);
     padding: 0;
     margin: 0;
     font-size: 0;

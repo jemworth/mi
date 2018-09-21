@@ -17,6 +17,7 @@
     <link href="assets/css/jquery.signaturepad.css" rel="stylesheet">
   </head>
   <body onload="onLoad()">
+    <div class="statusbar-overlay"></div>
     <div class="views">
       <div class="view view-main my-main">
         <!-- Navigation Bottom <img src="assets/img/outline-local_shipping-24px.svg"> -->
@@ -29,7 +30,7 @@
               <a href="#" class="link" id="id-add-customer"><i class="material-icons">person</i></a>
             </span>
             <span id="span-order">
-              <a href="#" class="link"><i class="material-icons">add</i></a>
+              <a href="#" class="link"><i class="icon icon-plus"></i></a>
             </span>
             <span>
               <a href="#" class="link" id="id-history"><i class="material-icons">book</i></a>
@@ -131,30 +132,24 @@
       <!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page -->
       <div class="views">
         <div class="view view-main">
-          <div class="pages">
-            <div data-page="home" class="page no-navbar">
 
-              <!-- Search Bar -->
-              <div class="content-block inset px-0 mt-20">
-                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                  <div class="searchbar-input">
-                    <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
-                  </div>
-                  <a href="#" class="searchbar-cancel">Cancel</a>
-                </form>
-              </div>
-              <!-- Search Bar overlay -->
-              <div class="searchbar-overlay"></div>
-
-              <div class="page-content pull-to-refresh-content">
-                <div class="pull-to-refresh-layer">
-                  <div class="preloader"></div>
-                  <div class="pull-to-refresh-arrow"></div>
+          <div class="pages navbar-through">
+            <div data-page="home" class="page with-subnavbar">
+              <div class="navbar">
+                <!-- Search Bar -->
+                <div class="content-block inset px-0 mt-15">
+                  <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                    <div class="searchbar-input">
+                      <input type="search" placeholder="Search Delivery"><a href="#" class="searchbar-clear"></a>
+                    </div>
+                    <a href="#" class="searchbar-cancel">Cancel</a>
+                  </form>
                 </div>
-
-                <div class="list-block list-block-search searchbar-found media-list list-custom-1">
-                  <div class="content-block inset datepicker px-0 my-15">
-                    <div class="row">
+                
+                <!-- Sub navbar -->
+                <div class="subnavbar align-items-start px-0 pt-15">
+                  <div class="content-block inset datepicker px-0 my-0">
+                    <div class="row align-items-start">
                       <div class="col-40">
                         <label>Start Date</label>
                         <input type="text" readonly id="calendar-from" placeholder="Sep 23 2018">
@@ -169,6 +164,19 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              
+              <div class="page-content pull-to-refresh-content hide-navbar-on-scroll">
+
+                <div class="pull-to-refresh-layer">
+                  <div class="preloader"></div>
+                  <div class="pull-to-refresh-arrow"></div>
+                </div>
+
+                <!-- Search Bar overlay -->
+                <div class="searchbar-overlay"></div>
+
+                <div class="list-block list-block-search searchbar-found media-list list-custom-1"></div>
 
               </div>
             </div>
@@ -181,41 +189,52 @@
     <script type="text/template" id="id-history-list">
       <div class="views">
         <div class="view view-main">
-          <div class="pages">
-            <div data-page="history-list" class="page no-navbar">
-              <!-- Search Bar -->
-              <div class="content-block inset px-0 mt-20">
-                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                  <div class="searchbar-input">
-                    <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+          <div class="pages navbar-through">
+            <div data-page="history-list" class="page with-subnavbar">
+              <div class="navbar">
+                <!-- Search Bar -->
+                <div class="content-block inset px-0 mt-15">
+                  <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                    <div class="searchbar-input">
+                      <input type="search" placeholder="Search History"><a href="#" class="searchbar-clear"></a>
+                    </div>
+                    <a href="#" class="searchbar-cancel">Cancel</a>
+                  </form>
+                </div>
+                
+                <!-- Sub navbar -->
+                <div class="subnavbar align-items-start px-0 pt-15">
+                  <div class="content-block inset datepicker px-0 my-0">
+                    <div class="row align-items-start">
+                      <div class="col-40">
+                        <label>Start Date</label>
+                        <input type="text" placeholder="Sep 23 2018" readonly id="history-calendar-from">
+                      </div>
+                      <div class="col-40">
+                        <label>End Date</label>
+                        <input type="text" placeholder="Sep 23 2018" readonly id="history-calendar-to">
+                      </div>
+                      <div class="col-20">
+                        <a href="#" class="button button-fill button-raised" id="history-id-reset"><i class="la la-close"></i></a>
+                      </div>
+                    </div>
                   </div>
-                  <a href="#" class="searchbar-cancel">Cancel</a>
-                </form>
+                </div>
               </div>
-              <!-- Search Bar overlay -->
-              <div class="searchbar-overlay"></div>
-              <div class="page-content pull-to-refresh-content">
-                <br>
-                <div class="pull-to-refresh-layer">
-                  <div class="preloader"></div>
-                  <!-- This block will be displayed if nothing found -->
-                  <div class="content-block searchbar-not-found">
-                    <div class="content-block-inner">Nothing found</div>
+
+              <div class="page-content pull-to-refresh-content hide-navbar-on-scroll">
+
+                  <div class="pull-to-refresh-layer">
+                    <div class="preloader"></div>
+                    <div class="pull-to-refresh-arrow"></div>
                   </div>
+
+                  <!-- Search Bar overlay -->
+                  <div class="searchbar-overlay"></div>
+
                   <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
-                  <div class="list-block list-block-search searchbar-found cards-list media-list">
-                    <div class="content-block-title">History List</div>
-                    <p class="buttons-row">
-                      <input type="text" placeholder="Date from" readonly id="history-calendar-from">
-                      <input type="text" placeholder="Date to" readonly id="history-calendar-to">
-                      <a href="#" class="button button-fill button-raised" id="history-id-reset">RESET</a>
-                    </p>
-                  </div>
-                  <p class="buttons-row">
-                    <a href="#" class="button button-fill button-raised back link">
-                    <span>Back</span>
-                    </a>
-                  </p>
+                  <div class="list-block list-block-search searchbar-found media-list list-custom-1"></div>
+
                 </div>
               </div>
             </div>
@@ -228,41 +247,46 @@
     <script type="text/template" id="id-customer-page">
       <div class="views">
         <div class="view view-main">
-          <div class="pages">
-            <div data-page = "customer-page" class="page no-navbar">
-              <!-- start of page content -->
-              <!-- Search Bar -->
-              <div class="content-block inset px-0 mt-20">
-                <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                  <div class="searchbar-input">
-                    <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
-                  </div>
-                  <a href="#" class="searchbar-cancel">Cancel</a>
-                </form>
+          <div class="pages navbar-through">
+            <div data-page="customer-page" class="page navbar-fixed">
+              <div class="navbar">
+
+                <!-- start of page content -->
+                <!-- Search Bar -->
+                <div class="content-block inset px-0 mt-15">
+                  <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                    <div class="searchbar-input">
+                      <input type="search" placeholder="Search Customer"><a href="#" class="searchbar-clear"></a>
+                    </div>
+                    <a href="#" class="searchbar-cancel">Cancel</a>
+                  </form>
+                </div>
               </div>
-              <!-- Search Bar overlay -->
-              <div class="searchbar-overlay"></div>
-              <div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+
+              <div class="page-content pull-to-refresh-content hide-navbar-on-scroll">
+
                 <!-- Default pull to refresh layer-->
                 <div class="pull-to-refresh-layer">
                   <div class="preloader"></div>
                   <div class="pull-to-refresh-arrow"></div>
                 </div>
-                <!-- This block will be displayed if nothing found -->
-                <div class="content-block searchbar-not-found">
-                  <div class="content-block-inner">Nothing found</div>
-                </div>
+
+                <!-- Search Bar overlay -->
+                <div class="searchbar-overlay"></div>
+
                 <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
-                <div class="list-block list-block-search searchbar-found">
+                <div class="list-block media-list list-block-search searchbar-found list-custom-2">
                   <ul>
                   </ul>
                 </div>
+
               </div>
+
               <!-- Floating Action Button -->
-              <a href="#" class="floating-button color-pink" id="id-floating-add-customer">
-              <i class="icon icon-plus"></i>
+              <a href="#" class="floating-button color-red" id="id-floating-add-customer">
+                <i class="material-icons">add</i>
               </a>
-              <!-- end of page content -->
+              
             </div>
           </div>
         </div>

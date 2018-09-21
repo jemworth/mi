@@ -1,24 +1,25 @@
 <!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
 <div class="pages">
-  <div data-page="about" class="page">
+  <div data-page="about" class="page navbar-static">
+    
+    <div class="page-content">
     <!-- Navbar top -->
     <div class="navbar">
       <div class="navbar-inner">
         <div class="left">
-          <a href="#" class="link">Home Left</a>
+          <a href="#" class="link back">
+            <i class="material-icons">keyboard_backspace</i>
+          </a>
         </div>
-        <div class="center">Home</div>
+        <div class="center">Confirm</div>
       </div>
     </div>
-    <div class="page-content">
-      <br>
-      <br>
       <div id="signature-display"></div>
-      <div id="order-details-display"></div>
+
       <!-- Virtual List -->
-      <div class="list-block virtual-list"></div>
-      <div id="delivery-list">
-      </div>
+      <div class="list-block virtual-list mt-0"></div>
+      <div id="delivery-list"></div>
+
       <!-- Services Popup -->
       <div class="popup popup-services"></div>
       <div class="content-block-title">Sign signature bellow</div>
@@ -27,10 +28,10 @@
           <canvas id="signature-pad" class="signature-pad" width=250 height=100></canvas>
         </div>
       </div>
-      <p class="buttons-row">
-        <a href="#" class="button button-fill button-raised" id="back">CANCEL</a>
-        <a href="#" class="button button-fill button-raised" id="save-jpeg">SUBMIT</a>
-        <a href="#" class="button button-fill button-raised" id="clear">CLEAR</a>
+      <p>
+        <a href="#" class="button button-round button-fill button-raised back">CANCEL</a>
+        <a href="#" class="button button-round button-fill button-raised" id="save-jpeg">SUBMIT</a>
+        <a href="#" class="button button-round button-fill button-raised" id="clear">CLEAR</a>
       </p>
     </div>
   </div>
